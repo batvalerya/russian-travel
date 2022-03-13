@@ -5,7 +5,7 @@
 
  @media (max-width: 1024px) {
     .lead__figure {
-        max-width: 928px
+        max-width: 928px;
     }
 }
 @media (max-width: 768px) {
