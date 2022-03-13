@@ -3,6 +3,21 @@
     flex-direction: column;
     list-style-type: none;
     padding: 0;
-    max-width: 100%;
-    margin: 0;
+    max-width: 690px;
+    margin: 0px 0px 92px 0px;
+}
+
+
+@media (max-width: 768px)  {
+    .list {
+        max-width: 720px;
+        margin-bottom: 88px;
+    }
+}
+
+@media (max-width: 425px)  {
+    .list {
+        max-width: 720px;
+        margin-bottom: 64px;
+    }
 }

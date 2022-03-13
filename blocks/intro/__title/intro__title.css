@@ -4,12 +4,28 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 1.07;
-    margin: 0;
+    margin: 92px 0px 40px 0px ;
+}
+
+@media (max-width: 1024px)  {
+    .intro__title {
+        max-width: 690px;
+    }
+}
+
+@media (max-width: 768px)  {
+    .intro__title {
+        max-width: 720px;
+        margin-top: 88px;
+    }
 }
 
 @media (max-width: 425px)  {
     .intro__title {
+        max-width: 288px;
         font-size: 32px;
         line-height: 1.09;
+        margin-top: 64px;
     }
 }
+

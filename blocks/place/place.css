@@ -3,7 +3,7 @@
     display: grid;
     column-gap: 40px;
     row-gap: 48px;
-    margin: 0px 148px 80px 148px;
+    margin: 0px auto 84px auto;
     grid-template-columns: minmax(auto,47%) minmax(min-content,1fr);
     grid-template-areas:
       "title website"
@@ -17,7 +17,6 @@
     .place  {
         column-gap: 32px;
         max-width: 928px;
-        margin: 0px 48px 80px 48px;
     }
   }
 
@@ -25,7 +24,7 @@
     .place  {
         column-gap: 28px;
         max-width: 720px;
-        margin: 0px 24px 80px 24px;
+        margin: 0px auto 73px auto;
     }
     .place:last-of-type {
         margin-bottom: 90px;
