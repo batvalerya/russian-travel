@@ -7,7 +7,13 @@
     margin: 0px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 728px) {
+    .footer__copyright {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 525px) {
     .footer__copyright {
         line-height: 1;
         max-width: 320px;

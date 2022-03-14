@@ -1,16 +1,9 @@
-.header__lang-links {
+.header__links {
     display: flex;
     flex-direction: row;
     padding: 0px;
     list-style-type: none;
     margin: 18px 0px 6px 0px;
-    width: 77px;
     justify-content: space-between;
 }
 
-@media (max-width: 425px) {
-    .header__lang-links  {
-        width: 62px;
-        margin: 14px 0px 8px 0px;
-    }
-} 

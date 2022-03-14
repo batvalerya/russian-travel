@@ -6,11 +6,10 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
     .footer__rows {
         flex-direction: column;
         margin-bottom: 48px;
-        height: 248px;
         justify-content: space-between;
     }
 }

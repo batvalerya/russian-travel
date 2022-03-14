@@ -1,0 +1,8 @@
+@media (max-width: 525px) {
+    .footer__row {
+        padding-bottom: 32px;
+    }
+    .footer__row:last-of-type {
+        padding-bottom: 0px;
+    }
+}

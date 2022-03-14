@@ -9,7 +9,7 @@
 
 @media (max-width: 1024px) {
     .lead {
-        max-width: 928px;
+        max-width: calc((928/1024) * 100%);
     }
 } 
 

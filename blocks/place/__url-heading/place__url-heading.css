@@ -15,7 +15,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
     .place__url-heading  {
         margin: 0px 0px 12px 16px;
     }

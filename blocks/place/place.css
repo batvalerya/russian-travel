@@ -16,24 +16,25 @@
 @media (max-width: 1024px) {
     .place  {
         column-gap: 32px;
-        max-width: 928px;
+        max-width: calc((928/1024) * 100%);
     }
-  }
+}
 
   @media (max-width: 768px) {
     .place  {
         column-gap: 28px;
-        max-width: 720px;
+        max-width: calc((720/768) * 100%);
         margin: 0px auto 73px auto;
     }
     .place:last-of-type {
         margin-bottom: 90px;
     }
-  }
+}
   
-  @media (max-width: 425px) {
+
+  @media (max-width: 550px) {
     .place  {
-        max-width: 320px;
+        max-width: 550px;
         row-gap: 32px;
         margin: 0px auto 50px auto;
         grid-template-columns: minmax(min-content,max-content);
@@ -46,4 +47,4 @@
     .place:last-of-type {
         margin-bottom: 66px;
     }
-  }
+}

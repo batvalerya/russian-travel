@@ -15,10 +15,11 @@
 @media (max-width: 768px) {
     .footer {
         padding: 0 24px 24px 24px;
+        flex-wrap: wrap;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
     .footer {
         padding: 0 0 24px 16px;
         flex-direction: column;
