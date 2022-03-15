@@ -6,6 +6,8 @@
     color: #FFFFFF;
     line-height: 1.17;
     text-decoration-line: none;
+    margin-left: 18px;
+    opacity: 1;
 }
 
 @media (max-width: 425px) {
@@ -14,3 +16,8 @@
         line-height: 1.11;
     }
 } 
+
+.header__lang-link:hover {
+    transition: opacity 1s ease;
+    opacity: 0.8;
+}
